@@ -1,1 +1,10 @@
-
+:root {
+  --white: #ffffff;
+  --gold: #bead8e;
+  --darkGold: #bdac8d;
+  --title: "Alegreya", serif;
+  --subTitle: "Lato", sans-serif;
+}
+body {
+  height: 100vh;
+}

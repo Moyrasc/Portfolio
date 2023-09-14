@@ -11,12 +11,14 @@ const NavContainer = styled.nav`
     -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     justify-content: space-evenly;
-    opacity:0.65
+    opacity:0.65;
     
 `
 const NavbarLinkContainer = styled.div`
     display: flex;
-    justify-content: space-between;`
+    justify-content: space-between;
+    align-items: center;
+    `
 
 const NavbarLink = styled(Link)`
 color: white;
@@ -39,9 +41,25 @@ cursor: pointer;
     
     
 }
+
 `
 const NavContentLink = styled.div`
-display:flex`
+display:flex;
+
+@media screen and (max-width:768px){
+    position:absolute;
+    top:-200px;
+    left:0;
+    width:100%;
+    height:90vh;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    transition: 0.5s all ease;
+}
+
+
+`
 const BtnLink = styled.button`
 cursor:pointer;
 border-radius:10px;
@@ -54,13 +72,29 @@ color:white;
 const BtnLogin = styled(BtnLink)`
 background-color: #0c2846
 `
+const MobileIcon = styled.div`
+display: none;
 
+
+@media screen and (max-width:768px){
+    display:flex;
+    padding-right: 1rem;
+    svg{
+        fill: #bdac8d;
+        height:40px;
+        width:40px
+    }
+    
+}
+
+`
 export {
   NavContainer,
   NavbarLinkContainer,
   NavbarLink,
   NavContentLink,
   BtnLink,
-  BtnLogin
+  BtnLogin,
+  MobileIcon
 
 }
