@@ -4,7 +4,8 @@
   --darkGold: #bdac8d;
   --title: "Alegreya", serif;
   --subTitle: "Lato", sans-serif;
-}
-body {
   height: 100vh;
 }
+/* body {
+  height: 100vh;
+} */
