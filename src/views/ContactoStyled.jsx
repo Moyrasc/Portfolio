@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ContainerContact = styled.div`
 display: flex;
 flex-direction: column;
-height: 66vh;
+height: 81.5vh;
 align-items: center;
 justify-content: center;
 
@@ -35,13 +35,15 @@ padding: 10px;
 `
 const SubtitleContact = styled.h2`
 color:var(--gold);
-font-family:var(--subTitle);
-font-size: 2.5rem;
+font-family:var(--title);
+font-size: 4rem;
+padding-bottom:3rem;
 `
 const Label = styled.label`
 color:var(--gold);
 margin:10px;
 font-size: 20px;
+
 `
 const Btn = styled.button`
 background-color:var(--gold);

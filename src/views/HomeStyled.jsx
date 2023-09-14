@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
 display: flex;
 flex-direction: column;
-height: 65vh;
+height: 81.5vh;
 align-items: center;
 justify-content: center;
 
@@ -14,6 +14,19 @@ font-family: var(--title);
 text-align: center;
 font-size:6rem;
 font-weight:900;
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        }
+    to {
+        opacity: 2;
+        }
+    }
+opacity: 0;
+        animation-name: fadeIn;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
 
 @media screen and (max-width:576px){
 font-size:3rem;

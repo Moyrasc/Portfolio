@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const NavContainer = styled.nav`
     width: 100%;
-    height: 150px;
+    height: 120px;
     background-color: #0a0b0d;
     display: flex;
     flex-direction: column;

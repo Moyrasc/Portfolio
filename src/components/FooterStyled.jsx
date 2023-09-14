@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const ContainerFooter = styled.div`
     width: 100%;
-    height: 150px;
     background-color: #0a0b0d;
     display: flex;
     flex-direction: column;
