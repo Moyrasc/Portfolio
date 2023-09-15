@@ -5,7 +5,7 @@ import { ContainerSobre, Img, MainContent, SubTitle, TextContent } from './Sobre
 const SobreMi = () => {
   return (
     <ContainerSobre>
-    <SubTitle>REINVENTÁNDOME</SubTitle>
+    <SubTitle>Reinventándome</SubTitle>
     <MainContent>
       <Img>
         <img src='https://picsum.photos/250/250?random=1' alt=''/>

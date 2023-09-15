@@ -29,6 +29,9 @@ const Home = () => {
         <Proyectos/>
         <hr />
       </Section>
+      <Logo>
+        <img src={moon} alt='moon'/>
+      </Logo>
       <Section>
         <Contacto/>
         <hr />
