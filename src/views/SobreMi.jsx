@@ -3,7 +3,8 @@ import React from 'react'
 import { ContainerSobre, Img, MainContent, SubTitle, TextContent } from './SobremiStyled'
 import { Btn } from './ContactoStyled'
 import { Link } from 'react-router-dom'
-import CV from '../CV.pdf'
+import CV from '../assets/CV.pdf'
+import foto from '../assets/perfil.png'
 
 const SobreMi = () => {
   return (
@@ -11,7 +12,7 @@ const SobreMi = () => {
     <SubTitle>Reinventándome</SubTitle>
     <MainContent>
       <Img>
-        <img src='https://picsum.photos/250/250?random=1' alt=''/>
+        <img src={foto} alt=''/>
       </Img>
       <TextContent>
         <p>Mi historia es un viaje de transformación desde una carrera en enfermería hacia el desarrollo de software.<br/>

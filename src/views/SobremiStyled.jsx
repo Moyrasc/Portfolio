@@ -24,8 +24,14 @@ width:100%;
 `
 const Img = styled.div`
 padding:3rem;
+
 & img {
-    border-radius:60%
+    width: 250px;
+    height: 250px;
+    border-radius:60%;
+    object-position: bottom;
+    object-fit: cover;
+
 }
 @media screen and (max-width:576px){
     padding: 1rem 3rem;
@@ -37,7 +43,11 @@ padding:3rem;
 `
 const TextContent = styled.div`
 padding: 2rem 4rem;
-width:auto;
+max-width: 600px;
+text-align: center;
+display: flex;
+flex-direction: column;
+
 & p{
     color:var(--white);
     font-family:var(--p);
