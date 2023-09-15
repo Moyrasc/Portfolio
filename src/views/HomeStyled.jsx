@@ -41,6 +41,7 @@ color:var(--white);
 font-family: var(--subTitle);
 text-align:center ;
 font-size:4rem;
+padding-bottom:5rem;
 margin-top: 0;
 
 @media screen and (max-width:576px){

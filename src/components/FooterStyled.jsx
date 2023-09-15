@@ -3,14 +3,14 @@ import styled from "styled-components";
 
 const ContainerFooter = styled.div`
     width: 100%;
-    background-color: #0a0b0d;
+    background-color: rgba(10,11,13, .65);
     display: flex;
     flex-direction: column;
     -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     justify-content: flex-end;
-    opacity:0.65;
+    
     & p{
         font-size:1.2rem;
         color:var(--white);

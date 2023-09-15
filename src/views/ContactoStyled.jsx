@@ -35,7 +35,7 @@ padding: 10px;
 `
 const SubtitleContact = styled.h2`
 color:var(--gold);
-font-family:var(--title);
+font-family:var(--subTitle);
 font-size: 4rem;
 padding-bottom:3rem;
 `

@@ -4,14 +4,14 @@ import styled from 'styled-components'
 const NavContainer = styled.nav`
     width: 100%;
     height: 120px;
-    background-color: #0a0b0d;
+    background-color: rgba(10,11,13, .65);
     display: flex;
     flex-direction: column;
     -webkit-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     justify-content: space-evenly;
-    opacity:0.65;
+
     
 `
 const NavbarLinkContainer = styled.div`
