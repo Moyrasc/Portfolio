@@ -46,31 +46,19 @@ cursor: pointer;
 const NavContentLink = styled.div`
 display:flex;
 
-@media screen and (max-width:768px){
-    position:absolute;
-    top:-200px;
-    left:0;
-    width:100%;
-    height:90vh;
-    justify-content: center;
-    flex-direction:column;
-    align-items:center;
-    transition: 0.5s all ease;
-}
+// @media screen and (max-width:768px){
+//     position:absolute;
+//     top:-200px;
+//     left:0;
+//     width:100%;
+//     height:90vh;
+//     justify-content: center;
+//     flex-direction:column;
+//     align-items:center;
+//     transition: 0.5s all ease;
+// }
 
 
-`
-const BtnLink = styled.button`
-cursor:pointer;
-border-radius:10px;
-width: 150px;
-height: 50px;
-background-color:#db1b43;
-border:none;
-color:white;
-`
-const BtnLogin = styled(BtnLink)`
-background-color: #0c2846
 `
 const MobileIcon = styled.div`
 display: none;
@@ -93,8 +81,6 @@ export {
   NavbarLinkContainer,
   NavbarLink,
   NavContentLink,
-  BtnLink,
-  BtnLogin,
   MobileIcon
 
 }

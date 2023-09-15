@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { MobileIcon, NavContainer, NavContentLink, NavbarLink, NavbarLinkContainer } from './NavbarStyled'
 import logo from '../assets/logoNav.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
-const [hamburgerOpen, setHamburgerOpen] = useState(false);
-const toggleHamburger = () => {
-  setHamburgerOpen(!hamburgerOpen)
-}
+
   return (
     <NavContainer>
         <NavbarLinkContainer>
@@ -19,7 +16,7 @@ const toggleHamburger = () => {
                 <NavbarLink to='/proyectos'>Proyectos</NavbarLink>
                 <NavbarLink to='/contacto'>Contacto</NavbarLink>               
               </NavContentLink>
-              <MobileIcon onClick={toggleHamburger}>
+              <MobileIcon >
                 <GiHamburgerMenu/>
             </MobileIcon>  
         </NavbarLinkContainer> 

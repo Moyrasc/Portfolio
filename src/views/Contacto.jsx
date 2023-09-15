@@ -1,5 +1,5 @@
 import React from 'react'
-import Particles from '../components/Particles'
+// import Particles from '../components/Particles'
 import ContactForm from '../components/ContactForm'
 import { ContainerContact, SubtitleContact } from './ContactoStyled'
 
@@ -9,7 +9,7 @@ const Contacto = () => {
     <ContainerContact>
     <SubtitleContact>Contacto</SubtitleContact>
     <ContactForm/>
-    <Particles id="tsparticles"/>
+    {/* <Particles id="tsparticles"/> */}
     </ContainerContact>
     </>
   )
