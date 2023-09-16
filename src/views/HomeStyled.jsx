@@ -51,14 +51,14 @@ font-size:2rem;
 const Logo = styled.div`
 display: flex;
 flex-direction: column;
-padding: 0rem 5rem;
+padding: 1rem 5rem;
 & img {
     width: 275px;
     height: 275px;
     opacity: 0.5;
 }
 @media screen and (max-width:576px){
-padding: 0rem 5rem;
+padding: 1rem 5rem;
 & img {
     width: 200px;
     height: 200px;
@@ -77,13 +77,34 @@ align-items: flex-end;
     opacity: 0.5;
 }
 @media screen and (max-width:576px){
-    padding: 0rem 6rem;
+    padding: 1rem 6rem;
 & img {
     width: 200px;
     height: 200px;
     opacity: 0.5;
 }
 }
+
+`
+const Logo3 = styled.div`
+display: flex;
+flex-direction: column;
+padding: 0rem 5rem;
+align-items: flex-end;
+& img {
+    width: 275px;
+    height: 275px;
+    opacity: 0.5;
+}
+@media screen and (max-width:576px){
+    padding: 1rem 4rem;
+& img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+}
+
 `
 export {
     Container,
@@ -91,5 +112,6 @@ export {
     SubTitle,
     Section,
     Logo,
-    Logo2
+    Logo2,
+    Logo3
 }
