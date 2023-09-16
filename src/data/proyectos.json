@@ -11,7 +11,7 @@
         "id": 2,
         "img": "https://raw.githubusercontent.com/Moyrasc/Memories-App-Photos/main/src/Img/preview%20memories.png",
         "nombre": "Memories-App",
-        "descripcion": "App de fotografías consumiendo API Unsplash utilizando React, Redux, React-Router y Sass. Diseño creado con FIGMA",
+        "descripcion": "App de fotografías creada con React, Redux, React-Router y Sass.",
         "despliegue": "https://moyrasc.github.io/Memories-App-Photos/",
         "repositorio": "https://github.com/Moyrasc/Memories-App-Photos"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "img": "",
         "nombre": "At-Home",
-        "descripcion": "Aplicación web que te permite crear tu propio portal inmobiliario creada con Express, MySQL, Sequelize, Pug, TailwindCSS",
+        "descripcion": "Portal inmobiliario creado con Express, MySQL, Sequelize, Pug, TailwindCSS",
         "despliegue": "",
         "repositorio": "https://github.com/Moyrasc/At-Home"
     },
