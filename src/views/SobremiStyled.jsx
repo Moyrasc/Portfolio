@@ -8,7 +8,7 @@ color:var(--gold);
 font-family: var(--subTitle);
 text-align:center ;
 font-size:4rem;
-padding:5rem 0;
+padding:2rem 0;
 
 @media screen and (max-width:576px){
 font-size:2rem;

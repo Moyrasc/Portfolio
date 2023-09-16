@@ -10,6 +10,7 @@ const ContainerFooter = styled.div`
     -moz-box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.43);
     justify-content: flex-end;
+    padding:2rem;
     
     & p{
         font-size:1.2rem;

@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 `
 const Section = styled.section`
-padding: 3rem ;
+padding: 2rem ;
 & hr {
     opacity:0;
 }
@@ -51,14 +51,14 @@ font-size:2rem;
 const Logo = styled.div`
 display: flex;
 flex-direction: column;
-padding: 3rem 5rem;
+padding: 0rem 5rem;
 & img {
     width: 275px;
     height: 275px;
     opacity: 0.5;
 }
 @media screen and (max-width:576px){
-padding: 2rem 5rem;
+padding: 0rem 5rem;
 & img {
     width: 200px;
     height: 200px;
@@ -69,7 +69,7 @@ padding: 2rem 5rem;
 const Logo2 = styled.div`
 display: flex;
 flex-direction: column;
-padding: 3rem 5rem;
+padding: 0rem 5rem;
 align-items: flex-end;
 & img {
     width: 275px;
@@ -77,7 +77,7 @@ align-items: flex-end;
     opacity: 0.5;
 }
 @media screen and (max-width:576px){
-    padding: 3rem 6rem;
+    padding: 0rem 6rem;
 & img {
     width: 200px;
     height: 200px;

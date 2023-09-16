@@ -3,24 +3,30 @@ import { BtnContent, CardImg, Container, ContentCard, Description, H3 } from './
 import { FooterLink } from './FooterStyled'
 import { AiFillGithub} from 'react-icons/ai'
 import { FaLaptopCode } from 'react-icons/fa'
+import proyectos from '../data/proyectos.json'
 
 const Card = () => {
   return (
-    <Container>
+    <>
+    {proyectos.map((proyecto)=> (
+    <Container key={proyecto.id}> 
         <ContentCard>
-        <CardImg src='https://maycomtales.com/wp-content/uploads/2020/07/mockups_online_cabecera.jpg' alt='img-random'/>
+        <CardImg src={proyecto.img} alt='img-random'/>
         </ContentCard>
-        <H3>Nombre Proyecto</H3>
-        <Description>Descripcion: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim leo in ultricies ultrices. Suspendisse odio est, tincidunt ac porta ac, mattis a sapien. Phasellus vulputate massa ut suscipit tincidunt. In porttitor enim in tristique aliquet. </Description>
+        <H3>{proyecto.nombre}</H3>
+        <Description>{proyecto.descripcion} </Description>
         <BtnContent>
             <FooterLink href='' target='_blank'>
                 <FaLaptopCode/>
             </FooterLink>
-            <FooterLink href='' target='_blank'>
+            <FooterLink href={proyecto.repositorio} target='_blank'>
                 <AiFillGithub />
             </FooterLink>
         </BtnContent>
     </Container>
+    ))}
+
+    </>
   )
 }
 

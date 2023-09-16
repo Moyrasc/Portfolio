@@ -7,11 +7,13 @@
   --p: "Cormorant Garamond", serif;
   height: 100vh;
 }
-/* body {
-  height: 100vh;
-} */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+#tsparticles {
+  width: 0;
+  height: 0;
 }

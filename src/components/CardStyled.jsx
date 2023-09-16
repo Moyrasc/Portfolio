@@ -8,8 +8,8 @@ border: solid 2px #988257;
 
 `
 const CardImg = styled.img`
-
-width:500px;
+width:100%;
+object-fit: cover;
 height:300px;
 
 
@@ -17,7 +17,7 @@ height:300px;
 const ContentCard = styled.div`
     display: flex;
     justify-content: center;
-    padding-top:2rem;
+    padding:2rem;
     
 `
 
@@ -29,6 +29,7 @@ padding:1rem;
 const Description = styled.p`
 color: white;
 padding:1rem;
+text-align: center;
 `
 
 const BtnContent = styled.div`

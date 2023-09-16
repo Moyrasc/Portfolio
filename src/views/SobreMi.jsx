@@ -1,5 +1,5 @@
 import React from 'react'
-// import Particles from '../components/Particles'
+import Particles from '../components/Particles'
 import { ContainerSobre, Img, MainContent, SubTitle, TextContent } from './SobremiStyled'
 import { Btn } from './ContactoStyled'
 import { Link } from 'react-router-dom'
@@ -23,7 +23,7 @@ const SobreMi = () => {
       <Link to={CV} download="CV-Noemi-Sola" target='_blank' rel='noreferrer'><Btn> Descargar CV</Btn></Link>
       
     </MainContent>
-    {/* <Particles id="tsparticles"/> */}
+    <Particles id="tsparticles"/>
     </ContainerSobre>
   )
 }

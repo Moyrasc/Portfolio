@@ -6,9 +6,24 @@ const ContainerProyecto = styled.div`
 const Content = styled.div`
 display: grid;
 gap: 1rem;
-// grid-auto-rows: 38rem;
-grid-template-columns: repeat(auto-fill, minmax(min(100%,35rem,1fr));
+grid-auto-flow:dense;
+// grid-template-columns: repeat(auto-fill, minmax(22rem,1fr))
 
+@media screen and (min-width:375px){
+    grid-template-columns: repeat(auto-fill, minmax(12rem,1fr));
+}
+@media screen and (min-width:480px){
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+}
+@media screen and (min-width:576px){
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+}
+@media screen and (min-width:1024px){
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
+}
+@media screen and (min-width:1280px){
+    grid-template-columns: repeat(auto-fill, minmax(35rem,1fr));
+}
 `
 
 export {

@@ -1,10 +1,42 @@
 [
     {
         "id": 1,
-        "img": "",
+        "img": "https://raw.githubusercontent.com/Moyrasc/GuitarLA/main/public/guitarLA-readme.jpg",
         "nombre": "GuitarLA",
-        "descripcion": "",
+        "descripcion": "Proyecto Front Tienda de Guitarras creado con VUE",
+        "despliegue": "https://fanciful-medovik-d25805.netlify.app/",
+        "repositorio": "https://github.com/Moyrasc/GuitarLA"
+    },
+    {
+        "id": 2,
+        "img": "https://raw.githubusercontent.com/Moyrasc/Memories-App-Photos/main/src/Img/preview%20memories.png",
+        "nombre": "Memories-App",
+        "descripcion": "App de fotografías consumiendo API Unsplash utilizando React, Redux, React-Router y Sass. Diseño creado con FIGMA",
+        "despliegue": "https://moyrasc.github.io/Memories-App-Photos/",
+        "repositorio": "https://github.com/Moyrasc/Memories-App-Photos"
+    },
+    {
+        "id": 3,
+        "img": "https://raw.githubusercontent.com/Moyrasc/Devstagram/main/public/img/devstagram.png",
+        "nombre": "Devstagram",
+        "descripcion": "Clon de Instagram creado con Laravel 9, Tailwind y MySQL",
+        "despliegue": "https://devstagram-app.domcloud.io/register",
+        "repositorio": "https://github.com/Moyrasc/Devstagram"
+    },
+    {
+        "id": 4,
+        "img": "",
+        "nombre": "At-Home",
+        "descripcion": "Aplicación web que te permite crear tu propio portal inmobiliario creada con Express, MySQL, Sequelize, Pug, TailwindCSS",
         "despliegue": "",
-        "repositorio": ""
+        "repositorio": "https://github.com/Moyrasc/At-Home"
+    },
+    {
+        "id": 5,
+        "img": "https://raw.githubusercontent.com/Moyrasc/Urban-Fitness/main/assets/urbanfitness.png",
+        "nombre": "Urban Fitness",
+        "descripcion": "Demo web y blog de gimnasio creada con WordPress y PHP",
+        "despliegue": "https://dev-urbanfitness.pantheonsite.io/",
+        "repositorio": "https://github.com/Moyrasc/Urban-Fitness"
     }
 ]

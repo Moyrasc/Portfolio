@@ -3,7 +3,6 @@ import styled from "styled-components";
 const ContainerContact = styled.div`
 display: flex;
 flex-direction: column;
-height: 81.5vh;
 align-items: center;
 justify-content: center;
 
