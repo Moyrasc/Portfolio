@@ -16,7 +16,7 @@ const Card = () => {
         <H3>{proyecto.nombre}</H3>
         <Description>{proyecto.descripcion} </Description>
         <BtnContent>
-            <FooterLink href='' target='_blank'>
+            <FooterLink href={proyecto.despliegue} target='_blank'>
                 <FaLaptopCode/>
             </FooterLink>
             <FooterLink href={proyecto.repositorio} target='_blank'>
