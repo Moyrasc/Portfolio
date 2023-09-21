@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Portfolio Desarrollo Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="src\assets\imgProjects\readme-portfolio.png" alt="preview portfolio">
 
-## Available Scripts
+<img src="src\assets\imgProjects\readme.png" alt="preview portfolio">
 
-In the project directory, you can run:
+Este es mi portfolio de desarrollo web, donde muestro algunos de los proyectos en los que he trabajado.
 
-### `npm start`
+## Secciones
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mi portfolio está dividido en las siguientes secciones:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Sobre Mí**: En esta sección, cuento un poco sobre quién soy y mi experiencia.
+<br/>
 
-### `npm test`
+- **Proyectos**: Muestro una selección de proyectos en los que he trabajado, incluyendo descripciones y enlaces a los mismos.
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Contacto**: Incluye formulario de contacto para que puedas comunicarte conmigo.
 
-### `npm run build`
+## Tecnologías y Bibliotecas Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Descripción**: Utilizado para la construcción de interfaces de usuario interactivas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Styled Components
 
-### `npm run eject`
+- **Descripción**: Styled Components es una biblioteca que permite escribir estilos CSS en JavaScript, lo que facilita la creación de componentes con estilos encapsulados.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### tsParticles y tsparticles-slim
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Descripción**: tsParticles es una biblioteca que proporciona una manera sencilla de agregar efectos de partículas animadas a tu sitio web. `tsparticles-slim` es una versión más ligera de la misma biblioteca.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### JSON
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Descripción**: Utilizado para almacenar y consumir datos de mis proyectos de manera eficiente.
 
-## Learn More
+### EmailJS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Descripción**: EmailJS es una plataforma que permite enviar correos electrónicos directamente desde el navegador, lo que facilita la implementación de formularios de contacto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Instalación y Uso
 
-### Code Splitting
+### Clonar el Repositorio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clona el repositorio en tu máquina local:
 
-### Analyzing the Bundle Size
+        git clone https://github.com/tu-usuario/Portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/>
 
-### Making a Progressive Web App
+2. Instala las dependencias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+        npm install
 
-### Advanced Configuration
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Ejecuta la aplicación:
 
-### Deployment
+        npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Proyecto desplegado
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 🚀​🚀​ https://portfolio-moyrasc.vercel.app/
