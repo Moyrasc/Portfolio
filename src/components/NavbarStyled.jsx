@@ -77,6 +77,7 @@ const MobileIcon = styled.div`
         @media screen and (max-width: 768px) {
             display: flex;
             margin-top: 10px;
+            padding-left: 1rem;
 
             svg {
                 fill: #bdac8d;
