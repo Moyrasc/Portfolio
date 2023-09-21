@@ -30,6 +30,7 @@ const Description = styled.p`
 color: white;
 padding:1rem;
 text-align: center;
+font-family: var(--subTitle)
 `
 
 const BtnContent = styled.div`

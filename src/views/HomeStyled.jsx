@@ -35,7 +35,7 @@ font-size:3rem;
 
 `
 const SubTitle = styled.h2`
-color:var(--white);
+color:var(--darkGold);
 font-family: var(--subTitle);
 text-align:center ;
 font-size:4rem;

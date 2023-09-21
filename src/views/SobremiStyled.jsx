@@ -42,14 +42,14 @@ padding:3rem;
 }
 `
 const TextContent = styled.div`
-padding: 2rem 4rem;
+padding: 2rem 3rem 2rem 5rem;
 max-width: 600px;
 display: flex;
 flex-direction: column;
 
 & p{
     color:var(--white);
-    font-family:var(--p);
+    font-family:var(--subTitle);
     font-size:20px;
 }
 @media screen and (max-width:576px){
