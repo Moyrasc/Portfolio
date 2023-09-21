@@ -17,17 +17,6 @@
   width: 0;
   height: 0;
 }
-/* body::-webkit-scrollbar {
-  width: 12px;
-}
-
-body::-webkit-scrollbar-track {
-  background: rgba(10, 11, 13, 0.65);
-}
-
-body::-webkit-scrollbar-thumb {
-  background: rgba(152, 130, 87, 0.85);
-} */
 *::-webkit-scrollbar {
   width: 12px;
 }

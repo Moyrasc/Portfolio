@@ -38,6 +38,24 @@ justify-content: space-around;
 padding-bottom:1rem;
 
 `
+const SvgLink = styled.a`
+color: white;
+font-size: 1.3rem;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content:center ;
+text-decoration: none;
+margin: 10px;
+cursor: pointer;
+    svg{
+        fill: #bead8e;
+        height:40px;
+        width:40px;
+        // margin: 0 2rem;
+        
+    }
+`
 
 export{
     Container,
@@ -45,6 +63,7 @@ export{
     H3,
     Description,
     BtnContent,
-    ContentCard
+    ContentCard,
+    SvgLink
     
 }

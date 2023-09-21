@@ -22,7 +22,6 @@ const Navbar = () => {
                 <NavbarLink to='/proyectos'>Proyectos</NavbarLink>
                 <NavbarLink to='/contacto'>Contacto</NavbarLink>               
               </NavContentLink>
- 
         </NavbarLinkContainer> 
       </NavContainer>
   )

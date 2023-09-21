@@ -44,7 +44,6 @@ padding:3rem;
 const TextContent = styled.div`
 padding: 2rem 4rem;
 max-width: 600px;
-text-align: center;
 display: flex;
 flex-direction: column;
 

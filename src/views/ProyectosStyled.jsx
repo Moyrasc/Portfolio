@@ -9,7 +9,6 @@ gap: 1rem;
 padding: 0 3rem;
 grid-auto-flow:dense;
 
-
 @media screen and (min-width:375px){
     grid-template-columns: repeat(auto-fill, minmax(12rem,1fr));
     padding: 0rem;

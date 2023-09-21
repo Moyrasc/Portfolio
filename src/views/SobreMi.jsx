@@ -5,6 +5,9 @@ import { Btn } from './ContactoStyled'
 import { Link } from 'react-router-dom'
 import CV from '../assets/CV.pdf'
 import foto from '../assets/perfil.png'
+import { ContLink, SvgLink } from './HomeStyled'
+import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+
 
 const SobreMi = () => {
   return (
@@ -21,7 +24,14 @@ const SobreMi = () => {
         </p>
       </TextContent>
       <Link to={CV} download="CV-Noemi-Sola" target='_blank' rel='noreferrer'><Btn> Descargar CV</Btn></Link>
-      
+              <ContLink>
+            <SvgLink href='https://www.linkedin.com/in/noe-sola/' target='_blank'>
+                <AiFillLinkedin />
+            </SvgLink>
+            <SvgLink href='https://github.com/Moyrasc' target='_blank'>
+                <AiFillGithub />
+            </SvgLink>
+        </ContLink>
     </MainContent>
     <Particles id="tsparticles"/>
     </ContainerSobre>

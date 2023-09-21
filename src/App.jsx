@@ -6,7 +6,6 @@ import Contacto from './views/Contacto';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-
 function App() {
   return (
     <>
@@ -17,7 +16,7 @@ function App() {
         <Route path='/proyectos' element={<Proyectos/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
       </Routes>
-    <Footer/>
+      <Footer/>
     </>
   );
 }

@@ -7,7 +7,6 @@ import Card from '../components/Card'
 const Proyectos = () => {
   return (
     <>
-    
     <ContainerProyecto>
     <SubTitle>Mis Proyectos</SubTitle>
     <Content>

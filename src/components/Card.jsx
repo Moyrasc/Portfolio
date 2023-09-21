@@ -1,6 +1,5 @@
 import React from 'react'
-import { BtnContent, CardImg, Container, ContentCard, Description, H3 } from './CardStyled'
-import { FooterLink } from './FooterStyled'
+import { BtnContent, CardImg, Container, ContentCard, Description, H3, SvgLink } from './CardStyled'
 import { AiFillGithub} from 'react-icons/ai'
 import { FaLaptopCode } from 'react-icons/fa'
 import proyectos from '../data/proyectos.json'
@@ -16,12 +15,12 @@ const Card = () => {
         <H3>{proyecto.nombre}</H3>
         <Description>{proyecto.descripcion} </Description>
         <BtnContent>
-            <FooterLink href={proyecto.despliegue} target='_blank'>
+            <SvgLink href={proyecto.despliegue} target='_blank'>
                 <FaLaptopCode/>
-            </FooterLink>
-            <FooterLink href={proyecto.repositorio} target='_blank'>
+            </SvgLink>
+            <SvgLink href={proyecto.repositorio} target='_blank'>
                 <AiFillGithub />
-            </FooterLink>
+            </SvgLink>
         </BtnContent>
     </Container>
     ))}

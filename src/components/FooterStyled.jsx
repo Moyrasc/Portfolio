@@ -23,29 +23,9 @@ const FooterLinkContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     `
-const FooterContLink = styled.div`
-display:flex;
-`
-const FooterLink = styled.a`
-color: white;
-font-size: 1.3rem;
-font-weight: bold;
-display: flex;
-align-items: center;
-justify-content:center ;
-text-decoration: none;
-margin: 10px;
-cursor: pointer;
-    svg{
-        fill: #bead8e;
-        height:30px;
-        width:30px;
-        
-    }
-`
+
 export{
     ContainerFooter,
     FooterLinkContainer,
-    FooterContLink,
-    FooterLink
+
 }
