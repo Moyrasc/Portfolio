@@ -25,17 +25,17 @@
     },
     {
         "id": 4,
-        "img": "",
-        "nombre": "At-Home",
-        "descripcion": "Portal inmobiliario creado con Express, MySQL, Sequelize, Pug, TailwindCSS",
-        "despliegue": "",
-        "repositorio": "https://github.com/Moyrasc/At-Home"
+        "img": "https://raw.githubusercontent.com/Moyrasc/Web-Hotel-Miranda/main/assets/img/Preview.png",
+        "nombre": "Hotel Miranda",
+        "descripcion": "Web para hotel diseñada bajo prototipo de Figma creada con HTML5,SASS, BEM y JS",
+        "despliegue": "https://web-hotel-miranda-ebon.vercel.app/",
+        "repositorio": "https://github.com/Moyrasc/Web-Hotel-Miranda"
     },
     {
         "id": 5,
         "img": "https://raw.githubusercontent.com/Moyrasc/Urban-Fitness/main/assets/urbanfitness.png",
         "nombre": "Urban Fitness",
-        "descripcion": "Demo web y blog de gimnasio creada con WordPress y PHP",
+        "descripcion": "Demo web y blog de gimnasio creada con WordPress,PHP y MySQL",
         "despliegue": "https://dev-urbanfitness.pantheonsite.io/",
         "repositorio": "https://github.com/Moyrasc/Urban-Fitness"
     }
